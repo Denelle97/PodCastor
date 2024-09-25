@@ -1,0 +1,100 @@
+.show-preview-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.show-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.show-image {
+  max-width: 300px; /* Adjust this size to make the image smaller */
+  height: auto;
+  border-radius: 8px;
+}
+
+.show-details {
+  flex-grow: 1;
+}
+
+.show-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.show-description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.show-seasons,
+.show-last-update {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.season-container {
+  margin-top: 20px;
+}
+
+.season-container h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.season-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*.season-container ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}*/
+.season-container li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.season-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.season-button {
+  padding: 8px 15px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.season-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styles for the audio player */
+audio {
+  flex-shrink: 0;
+  margin-left: 10px;
+  width: 200px;
+}
+
+/* Add some spacing between buttons */
+.season-selector button {
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.active-season {
+  background-color: #FF6347; /* Highlight active season */
+}

@@ -1,0 +1,267 @@
+/* Home Page styling */
+.home-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.show-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  max-width: 250px;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.show-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.show-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.show-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Search and Sort Controls */
+.search-sort-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-sort-controls input {
+  width: 100%;
+  max-width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.search-sort-controls input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.sort-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.sort-options button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.sort-options button:hover {
+  background-color: #ddd;
+}
+
+/* Genre Badge */
+.genre-filters {
+  margin-bottom: 20px;
+}
+
+.genre-buttons button {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.genre-buttons button:hover {
+  background-color: #ccc;
+}
+
+.genre-buttons .active-genre {
+  background-color: #d2a8ff;
+  color: white;
+}
+
+.reset-filters-btn {
+  background-color: #ff6666;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.reset-filters-btn:hover {
+  background-color: #ff4c4c;
+}
+
+/* .home-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.show-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  max-width: 250px;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.show-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.show-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.show-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Search and Sort Controls */
+/* .search-sort-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-sort-controls input {
+  width: 100%;
+  max-width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.search-sort-controls input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.sort-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.sort-options button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.sort-options button:hover {
+  background-color: #ddd;
+} */ 
+
+/* Genre Badge 
+.genre-badge {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+}*/
+
+/* .genre-badge:hover {
+  background-color: #ccc;
+}
+
+/* Responsive Adjustments */
+/* @media (max-width: 768px) { */
+  /* .search-sort-controls input {
+      max-width: 100%;
+      margin-bottom: 15px;
+  }
+
+  .sort-options {
+      justify-content: center;
+  }
+
+  .sort-options button {
+      margin-bottom: 5px;
+  }
+}  */

@@ -1,0 +1,50 @@
+/* Season.css */
+.season-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .season-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .seasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .season-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .season-body {
+    text-align: center;
+  }
+  
+  .season-heading {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .episodes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .episode-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .episode-item p {
+    margin: 5px 0;
+  }
